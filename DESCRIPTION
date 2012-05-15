@@ -2,7 +2,7 @@ Package: STARSEQ
 Type: Package
 Title: Secondary Trait Association analysis for Rare variants via
         SEQuence data
-Version: 1.02
+Version: 1.2.1
 Date: 2012-05-15
 Author: Dajiang Liu
 Maintainer: Dajiang Liu <dajiang.liu@gmail.com>
@@ -18,7 +18,8 @@ Description: STARSEQ is an R-package for detecting associations with
         threshold test 5.) sequence kernel association test.
 License: GPL-3
 LazyLoad: yes
-Packaged: 2012-08-24 12:19:55 UTC; dajiang
-Depends: CompQuadForm,numDeriv,vcf2geno
+Packaged: 2014-10-21 14:55:17 UTC; ripley
+Depends: CompQuadForm, numDeriv, seqminer
 Repository: CRAN
-Date/Publication: 2012-08-24 19:22:18
+Date/Publication: 2014-10-21 16:56:41
+NeedsCompilation: yes
